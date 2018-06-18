@@ -6,7 +6,8 @@ python:
   - 2.7
 
 install:
-  - pip install python2
+  - pip2 install python2
+  - pip2 install requests
   
 script:
   - python2 cmg.py
