@@ -6,10 +6,13 @@ python:
   - 2.7
 
 install:
+  - pkg update
+  - sudo apt-get update
   - pip2 install python2
   - pip2 install requests==2.5.3
   - pip2 install rsa
   - pip2 install thrift==0.9.3
+  - pip2 install urllib3
   - pip2 install bs4
   - pip2 install gtts
   - pip2 install googletrans
