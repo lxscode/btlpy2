@@ -9,7 +9,7 @@ install:
   - pip install python2
   
 script:
-  - python2 run tests.py
+  - python2 cmg.py
 
 after_success:
   - python2
